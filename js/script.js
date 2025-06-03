@@ -251,49 +251,6 @@ window.addEventListener("DOMContentLoaded", () => {
   readMore();
 
 
-  // SLIDER FUNC
-  function createSlider() {
-    let active = 0;
-    const sliderWrapper = document.getElementById('slider')
-    if (!sliderWrapper) return;
-    const arrows = Array.from(document.querySelectorAll('.slider-controls .slider-button'));
-    const roll = document.querySelector('.slider-roll');
-    const items = Array.from(document.querySelectorAll('.slider-frame .slider-item'));
-    const current = 1;
-    const max = items.length;
-    let currentSlideNumberElement = document.getElementById('sliderCurrentSlide');
-    const maxSlideNumberElement = document.getElementById('sliderMaxSlides');
-
-    currentSlideNumberElement.innerText = current;
-    maxSlideNumberElement.innerText = max;
-    arrows[0].classList.add('disabled');
-    arrows.forEach((el, index) => el.addEventListener('click', () => {
-      active = index ? active + 1 : active - 1;
-      arrows.forEach(e => e.classList.remove('disabled'));
-      if (active === items.length - 1) arrows[1].classList.add('disabled');
-      if (!active) arrows[0].classList.add('disabled');
-      currentSlideNumberElement.innerText = active + 1;
-      roll.style.transition = '.15s ease-out';
-      roll.style.transform = "translateX(" + (-(items[0].getBoundingClientRect().width * active || 1)) + "px)";
-    }));
-  }
-  createSlider();
-
-  function fetchCasinoData(url) {
-    fetch(url, { method: "POST", body: "html=" + encodeURIComponent("") }).then(response => response.text()).then(string => [document.getElementById("casinoList"), document.getElementById("mobileCasinoList")].forEach(item => item ? item.innerHTML = string : null));
-  }
-
-  var casinoElements = document.getElementsByClassName('selectCasinos');
-
-  if (casinoElements.length) {
-    Array.from(casinoElements).forEach(function (element) {
-      element.addEventListener('click', function () {
-        var url = element.getAttribute('data-attr');
-        fetchCasinoData(url);
-      });
-    });
-  }
-
   function subscribeFooter() {
     var email = document.getElementById('subscribe_email_footer');
     fetch("/backend/subscribe/new", { method: "POST", headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.value, captcha_result: 2 }) }).then(() => {
