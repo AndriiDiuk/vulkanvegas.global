@@ -87,7 +87,7 @@ const localizedSlides = {
   pl: [
     {
       backgroundImage:
-        "url('../images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
+        "url('/images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
       text: `
       <h2 class="h3-title">Uzyskaj 1 500 EUR + 150 darmowych spinów</h2>
       <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
@@ -96,7 +96,7 @@ const localizedSlides = {
     },
     {
       backgroundImage:
-        "url('../images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
+        "url('/images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
       text: `
       <h2 class="h3-title">Odbierz 50 DS bez depozytu</h2>
       <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
