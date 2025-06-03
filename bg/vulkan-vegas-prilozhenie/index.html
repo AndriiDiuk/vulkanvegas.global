@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vulkan Vegas приложение за Android и iOS </title>
+  <meta name="description"
+    content="Искате да играете казино игри през своя смартфон? Разберете как да изтеглите Vulkan Vegas приложение и да грабнете ексклузивни бонуси!">
+  <link rel="canonical" href="https://www.vulkanvegas.global/bg/vulkan-vegas-prilozhenie">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vulkan Vegas приложение за Android и iOS ">
+  <meta property="og:url" content="https://www.vulkanvegas.global/bg/vulkan-vegas-prilozhenie">
+  <meta property="og:site_name" content="Vulcan Vegas">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta property="og:description"
+    content="Искате да играете казино игри през своя смартфон? Разберете как да изтеглите Vulkan Vegas приложение и да грабнете ексклузивни бонуси!">
+  <meta property="og:locale" content="bg">
+  <meta name="twitter:site" content="https://www.vulkanvegas.global/bg/vulkan-vegas-prilozhenie">
+  <meta name="twitter:creator" content="vulkanvegas.global">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vulkan Vegas приложение за Android и iOS ">
+  <meta name="twitter:description"
+    content="Искате да играете казино игри през своя смартфон? Разберете как да изтеглите Vulkan Vegas приложение и да грабнете ексклузивни бонуси!">
+  <link rel="icon" type="image/png" sizes="128x128"
+    href="https://www.vulkanvegas.global/images/icons/favicon/favicon-128x128.png">
+  <link rel="icon" type="image/png" sizes="96x96"
+    href="https://www.vulkanvegas.global/images/icons/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://www.vulkanvegas.global/images/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://www.vulkanvegas.global/images/icons/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="https://www.vulkanvegas.global/images/icons/favicon/favicon-16x16.png">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="msapplication-navbutton-color" content="#027be3">
+  <meta name="msapplication-TileColor" content="#027be3">
+  <meta name="theme-color" content="#017aaf">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="https://www.vulkanvegas.global/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2"
+    crossOrigin="anonymous">
+  <link rel="preload" href="https://www.vulkanvegas.global/fonts/Montserrat-Italic.woff2" as="font" type="font/woff2"
+    crossOrigin="anonymous">
+  <link rel="preload" href="https://www.vulkanvegas.global/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2"
+    crossOrigin="anonymous">
+  <meta property="og:image" content="https://www.vulkanvegas.global/images/1712581834.webp">
+  <meta property="og:image:secure" content="https://www.vulkanvegas.global/images/1712581834.webp">
+  <meta property="twitter:image" content="https://www.vulkanvegas.global/images/1712581834.webp">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="last-modified" content="2025-03-03T09:20:10+03:00">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="preload" as="image" href="https://www.vulkanvegas.global/images/logos/desktop/generic.svg">
+  <meta name="google-site-verification" content="WKj0xjnetOcj3Kuj0XkaaBQrXLP3urFUbJucrxe9uIg" />
+
+  <link rel="alternate" hreflang="en" href="https://www.vulkanvegas.global/vulkan-vegas-app">
+  <link rel="alternate" hreflang="bg" href="https://www.vulkanvegas.global/bg/vulkan-vegas-prilozhenie">
+  <link rel="alternate" hreflang="pl" href="https://www.vulkanvegas.global/pl/vulkan-vegas-aplikacija">
+  <link rel="alternate" hreflang="x-default" href="https://www.vulkanvegas.global/vulkan-vegas-app">
+  <style>
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('/fonts/Montserrat-Regular.woff2') format('woff2'), url('/fonts/Montserrat-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('/fonts/Montserrat-Italic.woff2') format('woff2'), url('/fonts/Montserrat-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('/fonts/Montserrat-Bold.woff2') format('woff2'), url('/fonts/Montserrat-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --color-text-white: white;
+      --color-text-black: black;
+      --color-text-primary: rgba(49, 54, 68, 1);
+      --color-bg-light: rgba(244, 244, 244, 1);
+      --color-bg-gray: rgba(218, 221, 231, 1);
+      --header-bg-color: white;
+      --bg-overlay: rgba(0, 0, 0, 0.4);
+      --color-bg-footer: rgba(0, 0, 0, 1);
+      --color-btn-primary: rgb(255, 213, 0);
+      --color-btn-secondary: #cc331f;
+
+      --clr-light: rgba(231, 46, 21, 1);
+      --clr-body: rgba(7, 7, 13, 1);
+      --clr-text-light: rgb(209, 209, 209);
+      --clr-bg-container: rgba(21, 22, 28, 1);
+      --clr-bg-border: rgba(255, 255, 255, 0.08);
+      --clr-bg-gary-light: rgb(107, 107, 107);
+      --clr-text-desk: rgb(138, 101, 101);
+      --clr-link-light: rgb(208, 151, 151);
+      --clr-link-dark: rgb(123, 36, 36);
+
+      --width-container: calc(1280px - 32px);
+      --shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+      --blur: blur(8px);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: unset;
+      padding: unset;
+      font-family: "Montserrat";
+      line-height: 1.5;
+      font-style: normal;
+    }
+
+    body>main {
+      flex: 1;
+    }
+
+    body>footer {
+      margin-top: auto;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+
+    .text {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: justify;
+      color: var(--text-color-dark);
+      margin: 0;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    /*Utility classes*/
+    .container,
+    .container-medium {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: var(--width-container);
+      margin-inline: auto;
+      padding: 0 16px;
+    }
+
+    @media (min-width: 768px) {
+
+      .container,
+      .container-medium {
+        padding: 0 32px;
+      }
+    }
+
+    .container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .read-more-content .text {
+      display: inline;
+    }
+
+    .read-more-content .read-more-btn {
+      display: none;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+
+
+    /*Casino list*/
+    .casino-list .container-medium {
+      background-color: var(--color-bg-light);
+      padding-top: 32px;
+      padding-bottom: 64px;
+    }
+
+    .casino-list .header-wrapper {
+      overflow: scroll;
+    }
+
+    .casino-list .header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: start;
+      margin-bottom: 32px;
+    }
+
+    .casino-list .header .filter-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 8px 12px;
+      border-radius: 7px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.07);
+      transition: 0.15s ease-in-out;
+      cursor: pointer;
+    }
+
+    .casino-list .header .filter-item:hover {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .casino-list .header .filter-item svg {
+      min-width: 19px;
+      min-height: 16px;
+    }
+
+    .casino-list .header .filter-item span {
+      white-space: nowrap;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18.15px;
+      text-align: left;
+      color: var(--color-text-black);
+    }
+
+    .casino-list .content {
+      display: grid;
+      gap: 32px 12px;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 568px) {
+      .casino-list .content {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .casino-list .content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+
+    .casino-list .content .game {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      background-color: rgba(183, 185, 205, 0.4);
+    }
+
+    .casino-list .content .image {
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 140px;
+      position: relative;
+    }
+
+    .casino-list .content .image:hover .description {
+      display: block;
+    }
+
+    .casino-list .content .image .description {
+      display: none;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 4px 8px;
+      text-align: center;
+      margin: 0;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      background-color: black;
+      color: rgba(207, 211, 248, 1);
+    }
+
+    .casino-list .content .image img {
+      object-fit: contain;
+      width: 100%;
+    }
+
+    .casino-list .content .bonus {
+      display: flex;
+      justify-content: center;
+      width: calc(100% - 8px);
+      gap: 4px;
+      padding: 0 4px;
+      text-transform: uppercase;
+    }
+
+    .casino-list .content .bonus .bonus-amount {
+      text-align: center;
+      padding: 16px 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      gap: 4px;
+      color: var(--color-text-black);
+    }
+
+    .casino-list .content .bonus .bonus-amount span:first-of-type {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 0em;
+      opacity: 0.5;
+    }
+
+    .casino-list .content .bonus .bonus-amount span:last-of-type {
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0em;
+    }
+
+    .casino-list .content .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 30px;
+      border: none;
+      background-color: var(--color-btn-primary);
+      color: var(--color-text-black);
+    }
+
+    /*Casino list*/
+    /*Casino feedback block with thumbs up and down*/
+    .advantages-disadvantages-section {
+      background-color: rgba(230, 232, 237, 1);
+    }
+
+    .advantages-disadvantages-section .container-medium {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+
+    .advantages-disadvantages-section .advantages {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @media (min-width: 768px) {
+      .advantages-disadvantages-section .advantages {
+        flex-direction: row;
+      }
+    }
+
+    .advantages-disadvantages-section .advantages .positive>.h3-title,
+    .advantages-disadvantages-section .advantages .negative>.h3-title {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 41.02px;
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 24px;
+      color: var(--text-color-white);
+    }
+
+    .advantages-disadvantages-section .advantages .positive,
+    .advantages-disadvantages-section .advantages .negative {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      margin-right: auto;
+      max-width: 400px;
+      width: auto;
+      flex: 1;
+    }
+
+    .advantages-disadvantages-section .advantages .positive>div,
+    .advantages-disadvantages-section .advantages .negative>div {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .advantages-disadvantages-section .advantages .positive svg,
+    .advantages-disadvantages-section .advantages .negative svg {
+      min-width: 41px;
+      min-height: 41px;
+    }
+
+    .advantages-disadvantages-section .advantages .positive .text,
+    .advantages-disadvantages-section .advantages .negative .text {
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: left;
+      color: var(--text-color-light);
+    }
+
+    /*Casino feedback block with thumbs up and down*/
+    /*Popular Games*/
+    .popular-games .container-medium {
+      padding-top: 128px;
+      padding-bottom: 64px;
+      background-color: var(--color-bg-light);
+    }
+
+    .popular-games .content {
+      display: grid;
+      gap: 32px;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 568px) {
+      .popular-games .content {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .popular-games .content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+
+    .popular-games .content .game {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .popular-games .content .game>div {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .popular-games .content .game>div:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      background-color: var(--bg-overlay);
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .popular-games .content .game .img {
+      object-fit: cover;
+      height: 250px;
+      width: 100%;
+    }
+
+    .popular-games .content .game .button {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      width: calc(100% - 64px);
+      border-radius: 10px;
+      padding: 16px 24px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 14.52px;
+      text-align: center;
+      color: var(--color-text-black);
+      background-color: rgba(235, 159, 45, 1);
+      z-index: 2;
+    }
+
+    .popular-games .content .game .title {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+      margin: 0;
+      color: var(--color-text-primary);
+    }
+
+    /*Popular Games*/
+    /* Slider with casino info*/
+    .slider-section {
+      background-color: var(--color-bg-gray);
+      position: relative;
+    }
+
+    .slider-section:before,
+    .slider-section:after {
+      content: "";
+      position: absolute;
+      height: 64px;
+      background: var(--color-bg-light);
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+
+    @media (min-width: 576px) {
+
+      .slider-section:before,
+      .slider-section:after {
+        max-width: 540px;
+        padding: 0 0.75rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+
+      .slider-section:before,
+      .slider-section:after {
+        max-width: 720px;
+        padding: 0 2rem;
+      }
+    }
+
+    @media (min-width: 992px) {
+
+      .slider-section:before,
+      .slider-section:after {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+
+      .slider-section:before,
+      .slider-section:after {
+        max-width: 1140px;
+      }
+    }
+
+    .slider-section:before {
+      top: -64px;
+    }
+
+    .slider-section:after {
+      bottom: -64px;
+    }
+
+    .slider-section>div {
+      margin-top: 64px;
+      margin-bottom: 64px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slider-section .container-medium {
+      position: relative;
+      background-color: var(--color-bg-gray);
+      z-index: 1;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+
+    .slider-section .content {
+      background-color: var(--color-bg-gray);
+    }
+
+    .slider-section .h2-title {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 27px;
+      text-align: left;
+      margin: 0 0 32px 0;
+    }
+
+    .slider-section .slider-controls {
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      gap: 24px;
+      z-index: 1;
+      display: flex;
+      margin-top: 16px;
+    }
+
+    .slider-section .slider-controls .slider-count {
+      color: rgba(120, 126, 149, 1);
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 27px;
+      margin: 0;
+    }
+
+    .slider-section .slider-controls .slider-count span:first-of-type {
+      font-weight: 600;
+    }
+
+    .slider-section .slider-controls .slider-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .slider-section .slider-controls .slider-buttons .slider-button {
+      background-color: rgba(200, 204, 219, 1);
+      padding: 12px 20px;
+      cursor: pointer;
+      display: flex;
+    }
+
+    .slider-section .slider-controls .slider-buttons .slider-button.disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .slider-frame {
+      position: relative;
+      margin: auto;
+      margin-top: 24px;
+    }
+
+    .slider-roll {
+      overflow-x: scroll;
+      display: flex;
+      flex-wrap: nowrap;
+      width: max-content;
+    }
+
+    .slider-item {
+      user-select: none;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      margin-right: 10px;
+      border-radius: 20px;
+    }
+
+    .slider-item .header {
+      display: flex;
+      width: 100%;
+    }
+
+    .slider-item .header img {
+      width: 100%;
+      height: auto;
+      max-height: 270px;
+      object-fit: cover;
+    }
+
+    .slider-item .content {
+      background-color: white;
+      padding: 16px 16px 48px;
+      flex: 1;
+      gap: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .slider-item .content .h4-title {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 35px;
+      text-align: left;
+      margin: 0;
+      color: var(--color-text-primary);
+    }
+
+    .slider-item .content .text {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 29px;
+      text-align: left;
+      color: var(--color-text-primary);
+    }
+
+    .slider-item .content .text:not(:last-child) {
+      margin: 0 0 16px 0;
+    }
+
+    .slider-item {
+      width: 350px;
+    }
+
+    /*Slider with casino info*/
+  </style>
+</head>
+
+<body id="website">
+  <header>
+    <div class="header">
+      <div class="container">
+        <a href="https://www.vulkanvegas.global" class="header-logo">
+          <img src="../../images/vulkanvegascasino/assets/logo.webp" alt="Vulkan vegas">
+        </a>
+        <div class="sections mobile desktop" id="header-nav">
+          <a href="/bg/vulkan-vegas-bonus" class="header-url">
+            <img src="../../images/vulkanvegascasino/assets/icon-nav/gift.svg" alt="Icon" class="header-url-icon" />
+            <span>Бонуси</span>
+          </a>
+          <a href="/bg/vulkan-vegas-prilozhenie" class="header-url">
+            <img src="../../images/vulkanvegascasino/assets/icon-nav/instruction.svg" alt="Icon"
+              class="header-url-icon" />
+            <span>Мобилно приложение</span>
+          </a>
+          <a href="/bg/vulkan-vegas-50-bezplatni-zavurtaniya" class="header-url">
+            <img src="../../images/vulkanvegascasino/assets/icon-nav/game.svg" alt="Icon" class="header-url-icon" />
+            <span>Безплатни завъртания</span>
+          </a>
+          <a href="/bg/vulkan-vegas-promo-kod" class="header-url">
+            <img src="../../images/vulkanvegascasino/assets/icon-nav/rotation.svg" alt="Icon" class="header-url-icon" />
+            <span>Промоционален код</span>
+          </a>
+          <a target="_blank" href="/go/vulkanvegas" class="header-url-btn-mobile" rel="nofollow">Регистрация</a>
+        </div>
+        <div class="block-left">
+          <div class="language-selector">
+            <button class="language-btn" onclick="toggleLanguageList()">
+              <img src="../../images/icons/lang/bg.svg" alt="Icon" />
+            </button>
+            <div class="language-list" id="languageList">
+              <a href="/" class="language-option">
+                <img src="../../images/icons/lang/en.svg" alt="Icon" />
+              </a>
+              <a href="/bg" class="language-option">
+                <img src="../../images/icons/lang/bg.svg" alt="Icon" />
+              </a>
+              <a href="/pl" class="language-option">
+                <img src="../../images/icons/lang/pl.svg" alt="Icon">
+              </a>
+            </div>
+          </div>
+          <a target="_blank" href="/go/vulkanvegas" class="header-url-btn" rel="nofollow">Регистрация</a>
+          <div class="header-mobile" id="header-nav__mobile">
+            <input type="checkbox" id="header-nav__mobile-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <div id="backdrop" class="backdrop"></div>
+
+  <section>
+    <div class="slider" id="slider">
+      <button class="prev" onclick="prevSlide()">❮</button>
+      <div class="container-slider" id="slideContainer">
+        <div class="image-block" id="leftImage"></div>
+        <div class="text-block" id="text"></div>
+        <div class="image-block" id="rightImage"></div>
+      </div>
+      <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <section class="paragraph-section">
+    <div class="container">
+      <h1>Vulkan Vegas Приложение</h1>
+      <p>Повечето от нас обичаме да играем казино игри през нашите телефони, така че е логично сайтовете да предлагат
+        страхотно мобилно изживяване. Vulkan Vegas наистина се отличава с мобилното си предложение. Има не само
+        брилянтен мобилен сайт, който можете да използвате, но и специални приложения за Android и iOS.
+        Нека разгледаме как се представя всяка опция, за да се подготвите и да играете любимите си казино игри без
+        никакви проблеми.
+
+      </p>
+    </div>
+  </section>
+
+  <section class="casino-game-section">
+    <div class="container">
+      <div class="  casino-game">
+        <h2>Казино игри</h2>
+        <div class="casino-game-wrapper">
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/AllWaysLuck.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">AllWaysLuck</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/Big-Bass-Bonanza.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Big Bass Bonanza</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/BigBassSplash.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Big Bass Splash</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/CrownCoins.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas/">Crown Coins</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/JokerStoker.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Joker Stoker</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/LuckyStreak3.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Lucky Streak 3</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/SevenSeven.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Seven Seven</a>
+          </div>
+          <div class="casino-game-item">
+            <img height="226px" width="226px" src="../../images/vulkanvegascasino/assets/game/SweetBonanza1000.webp"
+              alt="Game">
+            <a href="/go/vulkanvegas">Sweet Bonanza 1000</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="content-wrapper">
+      <div class="wrapper-text-block">
+        <h2>Функции на Vulkan Vegas мобилно приложение
+        </h2>
+        <p>Мобилните приложения на Vulkan Vegas са перфектни за вас, ако сте заклет мобилен играч. Нека се фокусираме
+          върху някои от функциите, които отличават мобилните апликации от конкуренцията.
+        </p>
+        <ul class="list-block">
+          <li>
+            <b>Бърза навигация: </b> Очевидно е, че е прекарано доста време в това да се намали скоростта на зареждане в
+            мобилното приложение на Vulkan Vegas. Всичко зарежда незабавно, без никакви забавяния и буфериране, дори при
+            игрите на живо.
+
+          </li>
+          <li><b>Огромен каталог с игри:</b> Имате достъп до целия Vulkan Vegas каталог, когато играете на мобилното си
+            устройство. Има над 2,500 игри, с които може да се забавлявате!
+
+          </li>
+          <li><b>Ексклузивни бонуси:</b> За мен, най-добрата част от тегленето на Vulkan Vegas мобилно приложение е
+            достъпът до ексклузивни бонуси. Получавате покана да се възползвате от тези промоции, само ако сте
+            потребител на мобилното приложение. Нека разгледаме някои от тях по-детайлно.
+
+          </li>
+        </ul>
+      </div>
+      <div class="wrapper-text-block">
+        <h2>Ексклузивни бонуси с Vulkan Vegas приложение
+        </h2>
+        <p>Приложението Vulkan Vegas предлага ексклузивни бонуси само на мобилни потребители. Само заради тази причина
+          си струва да го изтеглите и да го тествате! Ето някои от различните видове бонуси, които може да получите,
+          когато изтеглите Vulkan Vegas мобилно приложение.
+
+        </p>
+        <ul class="list-block">
+          <li>
+            <b>Първи депозит бонус:</b> Когато направите първия си депозит през мобилно устройство, може да изберете
+            депозит промоция, обикновено предлагаща 100% бонус.
+          </li>
+          <li>
+            <b>Безплатни завъртания:</b> Може да изберете бонус безплатни завъртания, когато се регистрирате за пръв
+            път. Той обикновено предлага около 50 безплатни завъртания и често не е необходим депозит.
+          </li>
+          <li>
+            <b>Кешбек:</b> Ако имате загуби в мобилното приложение през всеки 7-дневен период, ще бъдете възнаградени с
+            процент от тези загуби под формата на кешбек.
+          </li>
+          <li>
+            <b>Бонуси презареждане:</b> Мобилните потребители се възползват от персонални бонуси презареждане, които
+            могат да ви възнаградят с депозит бонус между 10% и 90% всеки път, когато депозирате пари в акаунта си.
+          </li>
+        </ul>
+
+      </div>
+      <div class="wrapper-text-block">
+        <h2>Как да изтеглите и инсталирате Vulkan Vegas мобилно приложение</h2>
+        <p>
+          Единственият начин да изтеглите Vulkan Vegas приложение е през сайта на казиното. Ако опитате да го изтеглите
+          от Apple или Google Play магазините, няма да го откриете. Следвайте тези инструкции, които ще ви помогнат да
+          инсталирате приложението и да стартирате своята игра без никакви затруднения.
+        </p>
+        <ul class="list-block no-marker">
+          <li>Отворете мобилния сайт на Vulkan Vegas на вашия смартфон.</li>
+          <li>Отворете настройките на своя акаунт и изберете дали да изтеглите приложението за Android или за iOS.</li>
+          <li>Кликнете върху бутона за изтегляне и изчакайте, докато приложението се свали. То ще се инсталира
+            автоматично.</li>
+          <li>След като приложението е инсталирано, регистрирайте се във Vulkan Vegas, използвайки лесната форма за
+            регистрация.</li>
+          <li>Може да грабнете вашия ексклузивен бонус за добре дошли като го приемете и направите квалифициращ депозит.
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="wrapper-text-block">
+        <h2>Често задавани въпроси относно Vulkan Vegas мобилно приложение</h2>
+        <h3>Подходящо ли е Vulkan Vegas приложение за Android и iOS?
+
+        </h3>
+        <p>Има две различни Vulkan Vegas приложение - едното е за Android, а другото за iOS. Важно е да изтеглите
+          правилното за вашата операционна система.
+        </p>
+
+        <h3>Мога ли да получа ексклузивни бонуси във Vulkan Vegas приложение?</h3>
+        <p>Да! Vulkan Vegas дава на своите потребители, използващи мобилното приложение достъп до бонуси, които десктоп
+          потребителите не могат да получат. Промоциите варират от депозит бонуси и бонуси презареждане до безплатни
+          завъртания и кешбек.</p>
+        <h3>Мога ли, вместо приложението, да използвам Vulkan Vegas мобилен уебсайт?</h3>
+        <p>Определено можете. Мобилният сайт на Vulkan Vegas е перфектно оптимизиран за мобилни екрани и осигурява
+          достъп до целия каталог, но не можете да получите ексклузивните мобилни бонуси, освен ако не изтеглите
+          официалното приложение.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content">
+        <a href="" class="footer-logo">
+          <img src="../../images/vulkanvegascasino/assets/logo.webp" alt="Vulkan vegas">
+        </a>
+        <div class="sections">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="form">
+          <input type="email" id="subscribe_email_footer" placeholder="Въведете имейл адрес тук">
+          <button id="subscribeFooter">Абонирайте се</button>
+        </div>
+        <img src="../../images/vulkanvegascasino/assets/footer1.webp" alt="footer1">
+        <img src="../../images/vulkanvegascasino/assets/footer2.webp" alt="footer2">
+        <img src="../../images/vulkanvegascasino/assets/footer3.webp" alt="footer3">
+        <img src="../../images/vulkanvegascasino/assets/footer4.webp" alt="footer4">
+      </div>
+      <p class="copyright">© 2024 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <div id="cookieHolder"> </div>
+  <div id="nav-overlay"></div>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+</body>
+<script src="../../js/script.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.getElementById('header-nav__mobile').addEventListener('click', function () {
+      document.getElementById('header-nav__mobile-icon').toggleAttribute('checked')
+      document.getElementById('header-nav').classList.toggle('visible')
+      document.getElementById('backdrop').classList.toggle('visible')
+    })
+
+    const readMore = () => {
+      const textContainer = document.querySelector('.read-more-content');
+      const text = textContainer.querySelector('.text');
+      let readMoreBtn = textContainer.querySelector('.read-more-btn');
+      const fullText = text.textContent;
+      const shortText = fullText.slice(0, 100);
+      if (shortText.length > 0) {
+        readMoreBtn.style.display = 'inline'
+        text.textContent = shortText + '...';
+        readMoreBtn.addEventListener("click", function () {
+          text.textContent = fullText;
+          readMoreBtn.remove();
+        });
+      }
+    }
+    readMore();
+
+
+    // SLIDER FUNC
+    function createSlider() {
+      let active = 0;
+      const sliderWrapper = document.getElementById('slider')
+      if (!sliderWrapper) return;
+      const arrows = Array.from(document.querySelectorAll('.slider-controls .slider-button'));
+      const roll = document.querySelector('.slider-roll');
+      const items = Array.from(document.querySelectorAll('.slider-frame .slider-item'));
+      const current = 1;
+      const max = items.length;
+      let currentSlideNumberElement = document.getElementById('sliderCurrentSlide');
+      const maxSlideNumberElement = document.getElementById('sliderMaxSlides');
+
+      currentSlideNumberElement.innerText = current;
+      maxSlideNumberElement.innerText = max;
+      arrows[0].classList.add('disabled');
+      arrows.forEach((el, index) => el.addEventListener('click', () => {
+        active = index ? active + 1 : active - 1;
+        arrows.forEach(e => e.classList.remove('disabled'));
+        if (active === items.length - 1) arrows[1].classList.add('disabled');
+        if (!active) arrows[0].classList.add('disabled');
+        currentSlideNumberElement.innerText = active + 1;
+        roll.style.transition = '.15s ease-out';
+        roll.style.transform = "translateX(" + (-(items[0].getBoundingClientRect().width * active || 1)) + "px)";
+      }));
+    }
+    createSlider();
+
+    function fetchCasinoData(url) {
+      fetch(url, { method: "POST", body: "html=" + encodeURIComponent("") }).then(response => response.text()).then(string => [document.getElementById("casinoList"), document.getElementById("mobileCasinoList")].forEach(item => item ? item.innerHTML = string : null));
+    }
+
+    var casinoElements = document.getElementsByClassName('selectCasinos');
+
+    if (casinoElements.length) {
+      Array.from(casinoElements).forEach(function (element) {
+        element.addEventListener('click', function () {
+          var url = element.getAttribute('data-attr');
+          fetchCasinoData(url);
+        });
+      });
+    }
+
+    function subscribeFooter() {
+      var email = document.getElementById('subscribe_email_footer');
+      fetch("/backend/subscribe/new", { method: "POST", headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.value, captcha_result: 2 }) }).then(() => {
+        email.value = "Subscribed";
+        setTimeout(function () {
+          email.value = "";
+        }, 2000)
+      });
+    }
+
+    document.getElementById('subscribeFooter').addEventListener('click', subscribeFooter);
+  });
+
+  // ---------
+  // FAQ
+
+  const faqTitles = document.querySelectorAll('.faq-title');
+
+  faqTitles.forEach(title => {
+    title.addEventListener('click', function () {
+      const parent = this.closest('.faq-item');
+
+      parent.classList.toggle('open');
+    });
+  });
+
+  // end FAQ
+  // ---------
+  // Slider 
+
+  const slides = [
+
+    {
+      backgroundImage: "url('../../images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
+      text: `
+      <h2 class="h3-title">Грабнете 1500 EUR + 150 Безплатни завъртания</h2>
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
+      leftImage: "../../images/vulkanvegascasino/assets/slides/s-01/left.webp",
+      rightImage: "../../images/vulkanvegascasino/assets/slides/s-01/right.webp"
+    },
+    {
+      backgroundImage: "url('../../images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
+      text: `
+      <h2 class="h3-title">Грабнете 50 БЗ без депозит</h2>
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
+      leftImage: "../../images/vulkanvegascasino/assets/slides/s-02/left.webp",
+      rightImage: "../../images/vulkanvegascasino/assets/slides/s-02/right.webp"
+    }
+
+  ];
+
+  let currentSlide = 0;
+  let autoSlide;
+
+  function updateSlide() {
+    const slider = document.getElementById("slider");
+    const slideContainer = document.getElementById("slideContainer");
+    const text = document.getElementById("text");
+    const leftImage = document.getElementById("leftImage");
+    const rightImage = document.getElementById("rightImage");
+
+    slideContainer.style.animation = "none";
+    text.style.animation = "none";
+    leftImage.style.animation = "none";
+    rightImage.style.animation = "none";
+
+    setTimeout(() => {
+      slider.style.backgroundImage = slides[currentSlide].backgroundImage;
+      text.innerHTML = slides[currentSlide].text;
+      leftImage.innerHTML = `<img src="${slides[currentSlide].leftImage}" alt="Left Image">`;
+      rightImage.innerHTML = `<img src="${slides[currentSlide].rightImage}" alt="Right Image">`;
+
+      slideContainer.style.animation = "fadeIn 1s ease-out forwards";
+      text.style.animation = "textFadeIn 0.7s ease-out forwards";
+      leftImage.style.animation = "imageFadeIn 1s ease-out forwards";
+      rightImage.style.animation = "imageFadeIn 1s ease-out forwards";
+    }, 300);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+    updateSlide();
+    resetAutoSlide();
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+    updateSlide();
+    resetAutoSlide();
+  }
+
+  function startAutoSlide() {
+    autoSlide = setInterval(nextSlide, 6000);
+  }
+
+  function resetAutoSlide() {
+    clearInterval(autoSlide);
+    startAutoSlide();
+  }
+
+  updateSlide();
+  startAutoSlide();
+
+
+  // end Slider 
+  // ---------
+  // Table Info
+
+  const data = [
+    { name: "🏆 Бранд", value: "VulkanVegas" },
+    { name: "✅ Официален уебсайт", value: "VulkanVegas.com" },
+    { name: "✔️  Работещ огледален сайт", value: "Настоящ огледален сайт - <a href='https://www.vulkanvegas.global/go/vulkanvegas' target='_blank'>отиди до огледалото</a>" },
+    { name: "🚀  Платформа", value: "Web, mobile" }
+  ];
+
+  function generateTable(data) {
+    const container = document.getElementById("tableContainer");
+    container.innerHTML = "";
+
+    data.forEach(item => {
+      const row = document.createElement("div");
+      row.classList.add("row");
+
+      const nameDiv = document.createElement("div");
+      nameDiv.textContent = item.name;
+
+      const valueDiv = document.createElement("div");
+      valueDiv.innerHTML = item.value;
+
+      row.appendChild(nameDiv);
+      row.appendChild(valueDiv);
+      container.appendChild(row);
+    });
+  }
+
+  generateTable(data);
+
+  // end Table Info
+  // ---------
+</script>
+
+</html>

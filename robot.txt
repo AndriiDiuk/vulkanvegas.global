@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /go/
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://www.vulkanvegas.global/sitemap.xml

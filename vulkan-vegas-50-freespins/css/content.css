@@ -1,0 +1,254 @@
+.container .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.container .content-wrapper img {
+  border-radius: 24px;
+  margin-bottom: 16px;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.container .content-wrapper h2 {
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.container .content-wrapper h2::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background: url('../images/vulkanvegascasino/assets/h2-icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.container .content-wrapper a {
+  color: var(--clr-link-dark);
+}
+
+.quote {
+  border-left: 4px solid #ccc;
+  padding-left: 10px;
+  color: #555;
+  font-style: italic;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.list-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-block.no-marker {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+/* Text paragraph */
+
+.paragraph-section {
+  background: var(--clr-body);
+  padding-top: 60px;
+  text-align: center;
+}
+
+.paragraph-section .container {
+  color: white;
+}
+
+/* end text paragraph */
+/* -------- */
+/* Game */
+.casino-game-section {
+  padding: 60px 0;
+  margin-bottom: 32px;
+  background: var(--clr-body);
+}
+
+.casino-game {
+  position: relative;
+  width: 100%;
+  padding: 44px;
+  border-radius: 24px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  z-index: 5;
+}
+
+.casino-game h2 {
+  text-align: center;
+  color: var(--clr-text-light);
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  margin-top: 0;
+}
+
+.casino-game-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px;
+  filter: drop-shadow(0 0px 54px rgba(255, 0, 0, 0.3));
+}
+
+.casino-game-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1px solid var(--clr-bg-border);
+  padding: 10px;
+}
+
+.casino-game-item img {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.casino-game-item a {
+  text-align: center;
+  color: var(--clr-text-light);
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.15s ease-in-out;
+}
+
+.casino-game-item a:hover {
+  transform: scale(1.07);
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .casino-game-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .casino-game {
+    padding: 44px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .casino-game-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 360px) {
+  .casino-game-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* end Game */
+/* -------- */
+/* Game-2 */
+
+.casino-game-section-2 {
+  padding: 40px 0;
+}
+
+.casino-game-2 {
+  position: relative;
+  width: 100%;
+  padding: 44px;
+  border-radius: 24px;
+  z-index: 5;
+}
+
+.casino-game-2 h2 {
+  text-align: center;
+  color: var(--clr-body);
+  text-transform: uppercase;
+  margin-bottom: 44px;
+  margin-top: 0;
+}
+
+.casino-game-wrapper-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px;
+}
+
+.casino-game-item-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.casino-game-item-2 img {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.casino-game-item-2 a {
+  text-align: center;
+  color: var(--clr-text-light);
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 16px;
+  transform: translateX(-50%);
+  z-index: 2;
+  background: linear-gradient(to bottom, transparent, #000000);
+  backdrop-filter: var(--blur);
+}
+
+@media (max-width: 992px) {
+  .casino-game-wrapper-2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .casino-game,
+  .casino-game-2 {
+    padding: 24px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .casino-game-wrapper-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .casino-game-wrapper-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container .content-wrapper h2 {
+    font-size: 16px;
+  }
+}

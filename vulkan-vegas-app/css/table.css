@@ -1,0 +1,87 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  background-color: #d6d6d6;
+}
+
+table th,
+table td {
+  border: 1px solid #ffffff;
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 16px;
+  color: #2a2a2a;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  background-color: #f1f1f1;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color: #e8e8e8;
+}
+
+table tbody tr:hover td {
+  background-color: #ebebeb;
+}
+
+/* @media (min-width: 768px) {
+
+  table th,
+  table td {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  table th,
+  table td {
+    padding: 20px;
+  }
+} */
+
+/* Table */
+.teble-wrapper {
+  background: var(--clr-body);
+  padding: 40px 16px;
+  background: radial-gradient(circle at 50% 280%,
+      rgba(255, 0, 0, 0.5) 0%,
+      rgba(255, 255, 255, 0) 80%), var(--clr-body);
+}
+
+.table-container {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--clr-bg-border);
+}
+
+.row {
+  color: var(--clr-text-light);
+  display: flex;
+  justify-content: space-between;
+}
+
+.row div {
+  flex: 1;
+  border: 1px solid var(--clr-bg-border);
+
+  padding: 16px 20px;
+}
+
+.row span:first-child {
+  font-weight: 400;
+}
+
+.row a {
+  color: var(--clr-link-light);
+  margin-left: 4px;
+}
+
+/* end Table */
