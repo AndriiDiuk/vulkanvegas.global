@@ -53,7 +53,7 @@ const localizedSlides = {
       backgroundImage: "url('/images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
       text: `
         <h2 class="h3-title">Claim 1500 EUR + 150 Free Spins</h2>
-        <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Get Bonus</a>`,
+        <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Get Bonus</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-01/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-01/right.webp"
     },
@@ -61,7 +61,7 @@ const localizedSlides = {
       backgroundImage: "url('/images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
       text: `
         <h2 class="h3-title">Get 50 FS Without Deposit</h2>
-        <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Get Bonus</a>`,
+        <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Get Bonus</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-02/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-02/right.webp"
     }
@@ -71,7 +71,7 @@ const localizedSlides = {
       backgroundImage: "url('/images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
       text: `
       <h2 class="h3-title">Грабнете 1500 EUR + 150 Безплатни завъртания</h2>
-      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-01/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-01/right.webp"
     },
@@ -79,7 +79,7 @@ const localizedSlides = {
       backgroundImage: "url('/images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
       text: `
       <h2 class="h3-title">Грабнете 50 БЗ без депозит</h2>
-      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Вземете бонус</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-02/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-02/right.webp"
     }
@@ -90,7 +90,7 @@ const localizedSlides = {
         "url('/images/vulkanvegascasino/assets/slides/s-01/bg-1.webp')",
       text: `
       <h2 class="h3-title">Uzyskaj 1 500 EUR + 150 darmowych spinów</h2>
-      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-01/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-01/right.webp",
     },
@@ -99,7 +99,7 @@ const localizedSlides = {
         "url('/images/vulkanvegascasino/assets/slides/s-02/bg-2.webp')",
       text: `
       <h2 class="h3-title">Odbierz 50 DS bez depozytu</h2>
-      <a href="https://www.vulkanvegas.global/go/vulkanvegas" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
+      <a href="https://www.vulkanvegas.global/go/vulkanvegas/" class="slider-btn-bonus" target="_blank" rel="nofollow">Otrzymaj bonus</a>`,
       leftImage: "/images/vulkanvegascasino/assets/slides/s-02/left.webp",
       rightImage: "/images/vulkanvegascasino/assets/slides/s-02/right.webp",
     },
@@ -174,14 +174,14 @@ const localizedTableData = {
     { name: "✅ Official website", value: "VulkanVegas.com" },
     {
       name: "✔️ Working Mirror",
-      value: "Current mirror - <a href='https://www.vulkanvegas.global/go/vulkanvegas' target='_blank'>go to mirror</a>"
+      value: "Current mirror - <a href='https://www.vulkanvegas.global/go/vulkanvegas/' target='_blank'>go to mirror</a>"
     },
     { name: "🚀 Platform", value: "Web, mobile" }
   ],
   bg: [
     { name: "🏆 Бранд", value: "VulkanVegas" },
     { name: "✅ Официален уебсайт", value: "VulkanVegas.com" },
-    { name: "✔️  Работещ огледален сайт", value: "Настоящ огледален сайт - <a href='https://www.vulkanvegas.global/go/vulkanvegas' target='_blank'>отиди до огледалото</a>" },
+    { name: "✔️  Работещ огледален сайт", value: "Настоящ огледален сайт - <a href='https://www.vulkanvegas.global/go/vulkanvegas/' target='_blank'>отиди до огледалото</a>" },
     { name: "🚀  Платформа", value: "Web, mobile" }
   ],
   pl: [
@@ -190,7 +190,7 @@ const localizedTableData = {
     {
       name: "✔️  Działający Mirror",
       value:
-        "Aktualny Mirror - <a href='https://www.vulkanvegas.global/go/vulkanvegas' target='_blank'>idź do strony Mirror</a>",
+        "Aktualny Mirror - <a href='https://www.vulkanvegas.global/go/vulkanvegas/' target='_blank'>idź do strony Mirror</a>",
     },
     { name: "🚀  Platforma", value: "Web, mobile" },
   ]
